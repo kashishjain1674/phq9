@@ -37,7 +37,7 @@ for col in df_pred.columns:
 
 # Load the saved model for prediction
     
-    mlp_model = joblib.load(r"C:\Users\kashi\OneDrive\Desktop\Research Paper\mlp_model.pkl")
+    mlp_model = joblib.load("mlp_model.pkl")
 
 prediction = mlp_model.predict(df_pred)
 
